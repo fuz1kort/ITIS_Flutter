@@ -23,6 +23,7 @@ public class AuthController(IPublishEndpoint publishEndpoint) : ControllerBase
             if (oldSessionId != null)
             {
                 await publishEndpoint.Publish(new LogoutMessage(username, oldSessionId));
+                Console.WriteLine("User {0} logged out", username);
                 SessionManager.Remove(username);
             }
         }

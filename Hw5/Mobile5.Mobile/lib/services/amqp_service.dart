@@ -26,7 +26,18 @@ class AmqpService {
   }) async {
     final channel = await _client.channel();
 
-    final logoutQueue = await channel.queue("Logout", durable: true);
+    final logoutQueue = await channel.queue(
+      "logout-message-queue",
+      durable: true,
+    );
+    await logoutQueue.bind(
+      await channel.exchange(
+        "Mobile5.Backend.Models:LogoutMessage",
+        ExchangeType.FANOUT,
+        durable: true,
+      ),
+      '',
+    );
     final logoutConsumer = await logoutQueue.consume();
     _logoutSubscription = logoutConsumer.listen((msg) {
       final data = jsonDecode(msg.payloadAsString);
@@ -36,7 +47,18 @@ class AmqpService {
       }
     });
 
-    final broadcastQueue = await channel.queue("Broadcast", durable: true);
+    final broadcastQueue = await channel.queue(
+      "broadcast-message-queue",
+      durable: true,
+    );
+    await broadcastQueue.bind(
+      await channel.exchange(
+        "Mobile5.Backend.Models:BroadcastMessage",
+        ExchangeType.FANOUT,
+        durable: true,
+      ),
+      '',
+    );
     final broadcastConsumer = await broadcastQueue.consume();
     _broadcastSubscription = broadcastConsumer.listen((msg) {
       final messageData =
