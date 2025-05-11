@@ -1215,11 +1215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gafar\\source\\fuz1kort\\ITIS_Flutter\\Hw5\\Mobile5.Backend\\Mobile5.Backend\\Mobile5.Backend.csproj",
+      "projectUniqueName": "C:\\Users\\gafar\\source\\repos\\fuz1kort\\ITIS_Flutter\\Hw5\\Mobile5.Backend\\Mobile5.Backend\\Mobile5.Backend.csproj",
       "projectName": "Mobile5.Backend",
-      "projectPath": "C:\\Users\\gafar\\source\\fuz1kort\\ITIS_Flutter\\Hw5\\Mobile5.Backend\\Mobile5.Backend\\Mobile5.Backend.csproj",
+      "projectPath": "C:\\Users\\gafar\\source\\repos\\fuz1kort\\ITIS_Flutter\\Hw5\\Mobile5.Backend\\Mobile5.Backend\\Mobile5.Backend.csproj",
       "packagesPath": "C:\\Users\\gafar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gafar\\source\\fuz1kort\\ITIS_Flutter\\Hw5\\Mobile5.Backend\\Mobile5.Backend\\obj\\",
+      "outputPath": "C:\\Users\\gafar\\source\\repos\\fuz1kort\\ITIS_Flutter\\Hw5\\Mobile5.Backend\\Mobile5.Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1234,6 +1234,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1252,7 +1253,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -1290,7 +1291,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

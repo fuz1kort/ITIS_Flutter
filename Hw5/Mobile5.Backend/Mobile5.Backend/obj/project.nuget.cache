@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gjbrs8wvaME=",
+  "dgSpecHash": "GaYXuD+tTA4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gafar\\source\\fuz1kort\\ITIS_Flutter\\Hw5\\Mobile5.Backend\\Mobile5.Backend\\Mobile5.Backend.csproj",
+  "projectFilePath": "C:\\Users\\gafar\\source\\repos\\fuz1kort\\ITIS_Flutter\\Hw5\\Mobile5.Backend\\Mobile5.Backend\\Mobile5.Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gafar\\.nuget\\packages\\masstransit\\8.4.0\\masstransit.8.4.0.nupkg.sha512",
     "C:\\Users\\gafar\\.nuget\\packages\\masstransit.abstractions\\8.4.0\\masstransit.abstractions.8.4.0.nupkg.sha512",
