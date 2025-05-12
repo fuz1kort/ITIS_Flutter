@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mobile5.Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e59dbc40926fa204c55b2f72c7b3e5ea76d48323")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e320a0ddbcf7310307be3528cbd1b27439373eea")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mobile5.Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mobile5.Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

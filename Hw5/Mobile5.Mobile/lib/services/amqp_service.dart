@@ -10,7 +10,7 @@ typedef BroadcastCallback = void Function(String);
 class AmqpService {
   final _client = Client(
     settings: ConnectionSettings(
-      host: "192.168.0.174",
+      host: "10.17.62.150",
       port: 5672,
       authProvider: PlainAuthenticator("guest", "guest"),
     ),
