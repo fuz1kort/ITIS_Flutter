@@ -15,7 +15,6 @@ public class AuthController(IPublishEndpoint publishEndpoint) : ControllerBase
     {
         var username = request.Username;
         var sessionId = Guid.NewGuid().ToString();
-        Console.WriteLine("User {0} logged in", request.Username);
 
         if (SessionManager.Has(username))
         {
@@ -29,6 +28,7 @@ public class AuthController(IPublishEndpoint publishEndpoint) : ControllerBase
         }
 
         SessionManager.Add(username, sessionId);
+        Console.WriteLine("User {0} logged in", request.Username);
         return Ok(new { sessionId });
     }
 }

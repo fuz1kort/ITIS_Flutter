@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/session.dart';
 
 class AuthService {
-  final _baseUrl = 'http://10.17.62.150:5092';
+  final _baseUrl = 'http://10.17.35.158:5092';
 
   Future<Session?> login(String username) async {
     try {
